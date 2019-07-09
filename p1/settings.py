@@ -26,7 +26,8 @@ SECRET_KEY = 'dh)m$rf)%qu#%pvyo=7b8gipl6p$i%v6l=_-mxoja$ylc!4rny'
 DEBUG = True
 
 ALLOWED_HOSTS = ["p3-sockets-forresthuang70917.codeanyapp.com",
-		"port-8000.p3-sockets-forresthuang70917.codeanyapp.com"]
+		"port-8000.p3-sockets-forresthuang70917.codeanyapp.com",
+        "localhost"]
 
 
 # Application definition

@@ -17,5 +17,6 @@ def index(request):
     return render(request, 'weather/index.html')
 
 def section(request):
-    return render(request, 'weather/section.html', context={'classes': ['c1', 'c2', 'c3']})
+    return render(request, 'weather/section.html',
+      context={'classes': ['red-text', 'green-text', 'blue-text']})
   
