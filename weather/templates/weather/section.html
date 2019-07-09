@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Weather</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/section.css' %}" />
+</head>
+<body>
+
+	<!-- replace this html -->
+	<div>
+		<ul>
+			{% for c in classes %}
+			<li class="{{ c }}">rutabaga rainwbows</li>
+			{% endfor %} 
+		</ul>
+		<a href="{% url 'index' %}">Back Home</a>
+	</div>
+	
+	<!-- /replace this html -->
+</body>
+</html>
+
+
+
+
+

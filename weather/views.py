@@ -15,3 +15,9 @@ def comparison_alert(request):
 
 def index(request):
     return render(request, 'weather/index.html')
+
+def section(request):
+    return render(request, 'weather/section.html', context={'classes': ['c1', 'c2', 'c3']})
+  
+def section2(request):
+    return render(request, 'weather/section.html', context={'classes': ['c1', 'c2', 'c4']})
